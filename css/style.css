@@ -24,15 +24,14 @@ h1{
 
 .container{
     width: 80%;
-    margin: 40px auto 20px;
     background-color: white;
     border-radius: 4%;
+    padding-top: 20px;
 }
 
-.button-section{
+.button-container{
     padding: 10px 12px;
-    border-color: black;
-    border-width: 3px;
+    margin: 40px auto 2px;
 }
 
 .button{
@@ -52,4 +51,16 @@ h1{
 .add-section{
     background-color: white;
     color:silver;
+}
+
+.task-container{
+    margin: 40px auto 2px;
+}
+
+.task-title{
+    list-style-type: '\25BC'
+}
+
+li{
+    list-style-type: '\25BC'
 }
