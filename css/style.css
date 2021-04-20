@@ -1,3 +1,26 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+    font: 'Black 900';
+}
+
+
+
+
+
+
 .container{
-    
+    background-color:blue;
+    width: 60%;
+    margin: auto;
 }
