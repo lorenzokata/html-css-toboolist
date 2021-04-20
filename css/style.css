@@ -80,7 +80,7 @@ h3{
 }
 
 li{
-    list-style-type: '\2714';
+    list-style-type:none;
     line-height: 3;
 }
 
@@ -89,6 +89,7 @@ li{
     color: white;
     padding: 5px;
     border-radius: 10px;
+    font-size: 12px;
 }
 
 .goals{
@@ -109,4 +110,18 @@ li{
 
 .sales{
     background-color:#b0c926;
+}
+
+.check{
+    color: #67c1ab;
+    border: 2px solid #67c1ab;
+    border-radius: 100%;
+    padding: 1px 5px;
+}
+
+.cross{
+    color: red;
+    border: 2px solid red;
+    border-radius: 100%;
+    padding: 1px 5px;
 }
