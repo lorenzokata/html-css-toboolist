@@ -3,6 +3,14 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    background-color:white;
+}
+
+body{
+    background-color:#f6f8f9;
+}
+
 #logo{
     vertical-align: middle;
 }
@@ -14,13 +22,34 @@ h1{
     font: 'Black 900';
 }
 
-
-
-
-
-
 .container{
-    background-color:blue;
-    width: 60%;
-    margin: auto;
+    width: 80%;
+    margin: 40px auto 20px;
+    background-color: white;
+    border-radius: 4%;
+}
+
+.button-section{
+    padding: 10px 12px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.button{
+    padding: 5px 10px;    
+    border-radius: 8%;
+    border-style: solid;
+    border-color: silver;
+    border-width: thin;
+}
+
+.add-task{
+    margin: 10px auto 3px 40px;
+    background-color: #47adf1;
+    color: white;
+}
+
+.add-section{
+    background-color: white;
+    color:silver;
 }
