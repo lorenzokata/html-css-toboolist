@@ -25,13 +25,13 @@ h1{
 .container{
     width: 80%;
     background-color: white;
-    border-radius: 4%;
-    padding-top: 20px;
+    border-radius: 1%;
 }
 
+/* sezione BOTTONI */
+
 .button-container{
-    padding: 10px 12px;
-    margin: 40px auto 2px;
+    margin: 40px auto 0px;
 }
 
 .button{
@@ -43,7 +43,7 @@ h1{
 }
 
 .add-task{
-    margin: 10px auto 3px 40px;
+    margin: 10px auto 10px 40px;
     background-color: #47adf1;
     color: white;
 }
@@ -53,14 +53,60 @@ h1{
     color:silver;
 }
 
+/* sezione TASK */
+
 .task-container{
-    margin: 40px auto 2px;
+    margin: 2px auto;
+}
+
+ul{
+    margin-top: 0px;
+    list-style-position: inside;
+    
 }
 
 .task-title{
-    list-style-type: '\25BC'
+    list-style-type: '\25BC';
+    padding-bottom: 0;
+    padding-top: 30px;
+    line-height: normal;
+    
+}
+
+h3{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: inline;
 }
 
 li{
-    list-style-type: '\25BC'
+    list-style-type: '\2714';
+    line-height: 3;
+}
+
+.task-class{
+    background-color:#6dc0ea;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.goals{
+    background-color:#9c72e4;
+}
+
+.recruiting{
+    background-color:#64c0a9;
+}
+
+.mobile{
+    background-color:#f29e33;
+}
+
+.website{
+    background-color:#d863a1;
+}
+
+.sales{
+    background-color:#b0c926;
 }
